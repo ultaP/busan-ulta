@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.sche_list_form2{
+	font-family: 'NanumSquareNeo-Variable';
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	background-color: #276aff;
+	border-style: none;
+	
+	
+}
+
+.sche_list_con2{
+	font-family: 'NanumSquareNeo-Variable';
+	font-size: 13px;
+	border-style: none;
+	text-align: center;
+	padding: 10px;
+}
+
+.paging_no{
+	list-style:none;
+	text-align: center;
+	margin-top: 20px;
+	}
+.no_sero{
+	display: inline-block;
+	font-family: 'NanumSquareNeo-Variable';
+	font-weight: bold;
+	margin-right: 10px;
+}

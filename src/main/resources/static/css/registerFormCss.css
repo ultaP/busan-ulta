@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Pretendard-Regular';
+   src:
+      url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+      format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+.main_Bigtext{
+   font-family: 'NanumSquareNeo-Variable';
+   text-align: center;
+   font-size: 40px;
+   color:white;
+   z-index: 100;
+}
+.r_font {
+   border:none;
+   font-family: 'NanumSquareNeo-Variable';
+   font-size: 14px;
+   font-weight: bold;
+   background-color: #f7f7f7;
+
+}
+
+.r_font2 {
+   font-family: 'NanumSquareNeo-Variable';
+   padding-bottom: 100px;
+   background-color: #f7f7f7;
+}
+
+.r_box {
+   border-style: thin;
+
+}
+
+.r_font_small {
+   font-family: 'NanumSquareNeo-Variable';
+   font-size: 10px;
+}
+
+.hoiwon_font {
+   font-family: 'NanumSquareNeo-Variable';
+   text-align: center;
+   font-weight: bold;
+   font-size: 23px;
+   padding-top: 100px;
+   padding-bottom: 40px;
+   text-shadow: 1px 1px 1px gray;
+   color:#276aff;
+}
+
+.regi_box {
+   border-style: thin;
+   border-color: #E1F6FA;
+   margin-top: 70px;
+}
+
+#idCheckResult{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: normal;
+   font-size: 12px;
+}
+
+#pwInputCheckResult{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: normal;
+   font-size: 12px;
+}
+
+#pwSameCheckResult{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: normal;
+   font-size: 12px;
+}
+
+#emailCheckResult{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: normal;   
+   font-size: 12px;
+}
+
+#phoneCheckResult{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: normal;
+   font-size: 12px;
+}
+
+#nameCheckResult{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: normal;
+   font-size: 12px;
+}
+
+#user_email{
+   border-left-style: none;
+   border-right-style: none;
+   border-top-style: none;
+   
+}
+.regi_box{
+   background-color: white;
+   border-color: white;
+   border-radius: 5px;
+}
+
+.form_gojung{
+   border-left-style:none;
+   border-right-style:none;
+   border-top-style: none;
+   background-color: #f7f7f7;
+}
+
+.none_teduri{
+   border-color: #f7f7f7;
+   border-left-style: none;
+   border-right-style: none;
+   border-top-style: none;
+   
+}

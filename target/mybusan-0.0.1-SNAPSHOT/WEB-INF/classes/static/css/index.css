@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Pretendard-Regular';
+   src:
+      url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+      format('woff');
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'GmarketSansMedium';
+   src:
+      url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+      format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.d-block {
+   height: 650px;
+}
+
+.ment1 {
+   font-family: 'NanumSquareNeo-Variable';
+   color: black;
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 150px;
+   margin-bottom: 130px;
+}
+
+
+.main_Bigtext{
+   font-family: 'NanumSquareNeo-Variable';
+   text-align: center;
+   font-size: 40px;
+   color:white;
+   z-index: 100;
+}
+
+.main_text_style{
+   padding-top:300px;
+   padding-bottom: 278px;
+}
+
+.index_padding{
+   margin-bottom:100px;
+   width:100%;
+   height: 10px;
+}
+
+.jungbo_style{
+   padding-top:300px;
+   padding-bottom: 0px;
+}
+
+.index_main1{
+   width:45%;
+   height: 490px;
+   background-color: black;
+   margin-left:300px;
+   background-image: url("/images/mermaid.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   float: left;
+}
+
+.main_text_style2{
+   background: rgba(0,0,0,0.3);
+   padding-top:300px;
+   padding-bottom: 190px;
+}
+.white_box1{
+   width:200px;
+   height: 490px;
+   background-color: #45728a;
+   float: left;
+   margin-right: 100px;
+   margin-bottom: 100px;
+}
+.main_index_text1{
+   color:    #87C6C8;
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: bold;
+   font-size: 35px;
+   margin-top: 180px;
+   text-shadow: 1px 1px 1px black;
+   text-align: center;
+}
+.main_index_text2{
+   color: white;
+   font-family: 'NanumSquareNeo-Variable';
+   font-size: 18px;
+   text-align: center;
+   text-shadow: 1px 1px 1px gray;
+}
+
+.white_box2{
+   width:200px;
+   height: 490px;
+   background-color: #77889c;
+   float: left;
+   margin-left: 300px;
+}
+
+.index_main2{
+   width:45%;
+   height: 490px;
+   background-color: black;
+   background-image: url("/images/haewoondaeBird.jpg");
+   background-repeat: no-repeat;
+   float: left;
+   margin-bottom: 150px;
+}
+.main_index_text3{
+   color: #c4d6ee;
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: bold;
+   font-size: 35px;
+   margin-top: 180px;
+   text-shadow: 1px 1px 1px black;
+   text-align: center;
+}
+.main_index_text4{
+   color: white;
+   font-family: 'NanumSquareNeo-Variable';
+   font-size: 18px;
+   text-align: center;
+   text-shadow: 1px 1px 1px gray;
+}
+
+.ment2 {
+   font-family: 'NanumSquareNeo-Variable';
+   color: black;
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 150px;
+   margin-bottom: 130px;
+}
+
+.ment3{
+   font-family: 'NanumSquareNeo-Variable';
+   color: black;
+   text-align: center;
+   text-decoration: underline;
+   margin-bottom: 130px;
+   margin-top: 10px;
+}
+.main_text_style3{
+   background: rgba(0,0,0,0.3);
+   padding-top:220px;
+   padding-bottom: 170px;
+   margin-bottom: 100px;
+}
+
+.ment4{
+   font-family: 'NanumSquareNeo-Variable';
+   font-size: 30px;
+   color: white;
+   text-align: center;
+}
+.main_text_style4{
+   background: rgba(0,0,0,0.5);
+   padding-top:141px;
+   padding-bottom: 141px;
+   margin-bottom: 100px;
+}
+
+.introduction_font{
+   font-family: 'NanumSquareNeo-Variable';
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.introduction_font2{
+   font-family: 'NanumSquareNeo-Variable';
+   color: white;
+   font-size: 20px;
+   text-align: center;
+}
+.introduction_font3{
+   font-family: 'NanumSquareNeo-Variable';
+   color:black;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.introduction_font4{
+   font-family: 'NanumSquareNeo-Variable';
+   color:#aaaaaa;
+}
+
+.introduction_font5{
+   font-family: 'NanumSquareNeo-Variable';
+   color: black;
+   margin-left: 5px;
+}

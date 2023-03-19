@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Pretendard-Regular';
+   src:
+      url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+      format('woff');
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'GmarketSansMedium';
+   src:
+      url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+      format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.qna_font1{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: bold;
+   font-size: 25px;
+   color: white;
+   text-align: center;
+}
+
+.qna_font2{
+   font-family: 'NanumSquareNeo-Variable';
+   padding-left: 22px;
+   color: white;
+   text-align: center;
+}
+.qna_font3{
+   font-family: 'NanumSquareNeo-Variable';
+   text-align: left;
+   margin-top: 20px;
+   font-size: 15px;
+}
+
+.qna_form_font1{
+   font-family: 'NanumSquareNeo-Variable';
+   color: white;
+   font-size: 15px;
+   background-color: #101928;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.text_size{
+   width:500px;
+   height: 300px;
+}
+.address_text{
+   width: 500px;
+   height: 30px;
+}
+
+.main_text_style5{
+   background: rgba(0,0,0,0.3);
+   padding-top:87px;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+}
+.qna_img{
+   width: 100%;
+   height: 200px;
+   background-image: url("images/mul.png");
+}
+.input_font{
+   font-family: 'NanumSquareNeo-Variable';
+   font-weight: bold;
+   font-size: 13px;
+}
+.qna_btn{
+   color: black;
+   font-family: 'NanumSquareNeo-Variable';
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: #C3E7FA;
+   border-color: #C3E7FA;
+   border-radius: 7px;
+   box-shadow: 1px 1px 1px gray;
+   font-weight: bold;
+   font-size: 15px;
+   
+
+}

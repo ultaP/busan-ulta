@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.loginTitle {
+	font-family: 'NanumSquareNeo-Variable';
+	text-align: center;
+	font-weight: bold;
+	font-size:20px;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	text-shadow: 1px 1px 1px gray;
+	color:#276aff;
+}
+
+.login_btn {
+	border-color: #276aff;
+	font-family: 'NanumSquareNeo-Variable';
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 7px;
+	background-color:#276aff;
+	color:white;
+	box-shadow: 1px 1px 1px gray;
+}
+
+.login_text {
+	font-family: 'NanumSquareNeo-Variable';
+	margin-top: 50px;
+	font-size: 13px;
+	text-decoration: underline;
+	margin-bottom: 130px;
+}
+
+.findID_box {
+	justify-content: center;
+}
+
+.form-control{
+	font-family: 'NanumSquareNeo-Variable';
+	font-size: 13px;
+}
+
+.mx-1{
+	font-family: 'NanumSquareNeo-Variable';
+	font-size: 13px;
+}

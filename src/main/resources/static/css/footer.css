@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.footer_title {
+	font-family: 'GmarketSansMedium';
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.copyright_style {
+	font-family: 'GmarketSansMedium';
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.footer_list {
+	font-family: 'Pretendard-Regular';
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.footer_color{
+	background-color: #f7f7f7;
+}

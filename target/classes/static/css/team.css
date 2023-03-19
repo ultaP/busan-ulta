@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.team_table_title{
+	font-family: 'NanumSquareNeo-Variable';
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:#276aff;
+	border-color: white;
+	border-radius: 5px;
+}
+
+.team_table{
+	padding-top:100px;
+	padding-bottom:50px;
+	background-color: #f7f7f7;
+}
+
+.in_table_content{
+	font-family: 'Pretendard-Regular';
+	text-align: center;
+	padding-left:10px;
+	padding-right:10px;
+	border-color: white;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.team_btn{
+	font-family: 'NanumSquareNeo-Variable';
+	box-shadow: 1px 1px 1px gray;
+	border-radius: 8px;
+	border-style: none;
+	margin: 30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: white;
+	font-size: 15px;
+}
+
+.team_bottom_page{
+	background-color: #f7f7f7;
+}

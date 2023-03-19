@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="schedule">
+
+	<update id="insList" parameterType="java.util.List">
+	INSERT INTO s_detail (
+		  s_no
+		,p_code
+		
+	)
+	SELECT  s_no,p_code
+		 
+	  FROM (
+	         <foreach collection="list" item="placelist" index="index" separator="union all">
+			SELECT ((AUTO_INCREMENT)-1) as s_no, #{placelist} as p_code
+			       
+			 FROM  information_schema.tables
+		
+			WHERE table_name = 'schedule'
+			
+			AND table_schema = DATABASE()
+	         </foreach> 
+	  ) T
+	  </update>
+
+    <select id="list" resultType="java.util.Map"  parameterType="int">
+		select @rownum:=@rownum+1 num, b.*
+				from (select a.*, count(s_no) count
+					from(SELECT s_no, user_id, s_title, s_content, s_rdate, s_startdate, s_enddate
+						FROM schedule ) a, (select @rownum := 0) tmp
+						group by s_no
+					order by s_no ) b
+	        	order by @rownum desc
+				LIMIT 10 OFFSET #{pageNum}
+	</select>
+
+
+	
+
+	
+	
+</mapper>

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-link {
+	font-family: 'NanumSquareNeo-Variable';
+}
+
+.s-box {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 200px;
+	border: 0ch;
+	border-width: 0.5px;
+	border-color: #bbb;
+	background-color: white;
+	border-radius: 8px;
+	font-size: 15px;
+	box-shadow: 1px 1px 1px gray;
+	padding-left: 10px;
+}
+
+.input {
+	width: 100%;
+	border-radius: 8px;
+	padding: 10px 12px;
+	font-size: 10px;
+}
+
+.l-box {
+	font-family: 'NanumSquareNeo-Variable';
+	border: 0ch;
+	border-radius: 8px;
+	font-size: 14px;
+	background-color: #276aff;
+	color: white;
+	box-shadow: 1px 1px 1px gray;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.img-size2 {
+	position: relative;
+	width: 17px;
+	right: 30px;
+	margin: 0;
+	padding-bottom: 3px;
+	padding-right: 1px;
+}
+
+.r-style {
+	justify-content: center;
+}
+
+.row {
+	margin-bottom: 50px;
+}
+
+.jstyle {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bss_style {
+	font-family: 'Cafe24Ssurround';
+	font-weight: bold;
+	text-align: left;
+}
+
+.i-style {
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.ii-style {
+	justify-content: center;
+}
+
+.c-img {
+	height: 300px;
+	width: 375px;
+	object-fit: cover;
+}
+
+.cc-img {
+	height: 300px;
+	width: 630px;
+	object-fit: cover;
+}
+
+.ccc-img {
+	height: 300px;
+	width: 503px;
+	object-fit: cover;
+}
+
+.tttt-style {
+	font-weight: bold;
+	color: #4B73E1;
+	text-align: center;
+	text-shadow: 2px 2px 2px lightgray;
+	margin-top: 200px;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.con-style {
+	margin-top: 200px;
+	margin-bottom: 0px;
+}
+
+.footer-style {
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.bsstyle {
+	font-family: 'Cafe24SsurroundAir';
+	font-size: 15px;
+}
+
+.bssstyle {
+	font-family: 'GmarketSansMedium';
+	font-size: 17px;
+}
